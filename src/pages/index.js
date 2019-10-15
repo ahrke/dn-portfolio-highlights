@@ -119,7 +119,7 @@ const IndexPage = () =>{
               <header className="major">
                 <h2>My Projects</h2>
               </header>
-              <div>
+              <div style={{ width: '100%' }}>
                 <Work />
               </div>
             </div>
