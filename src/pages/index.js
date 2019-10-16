@@ -13,6 +13,10 @@ import Work from '../components/Work/Work';
 import dave from '../assets/images/dave.png';
 import nain from '../assets/images/nain.png';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+
 const sections = [
   { id: 'one', bg: require('../assets/images/pic01.jpg') },
   { id: 'two', bg: require('../assets/images/pic02.jpg') },
@@ -138,7 +142,18 @@ const IndexPage = () =>{
               
             </header>
             <div>
-              
+              <a href='https://www.linkedin.com/in/davedmnguyen/'>
+                <FontAwesomeIcon icon={faLinkedin} size='2x' style={{ margin: 10 }} />
+              </a>
+              <a href='https://github.com/ahrke'>
+                <FontAwesomeIcon icon={faGithub} size='2x' style={{ margin: 10 }} />
+              </a>
+              <a href='mailto:david.duy.minh@gmail.com'>
+                <FontAwesomeIcon icon={faEnvelope} size='2x' style={{ margin: 10 }} />
+              </a>
+            </div>
+            <div style={{ flexDirection: 'row', alignItems: 'center', alignContent: 'center', justifyContent: 'center' }}>
+              <FontAwesomeIcon icon={faPhone} size='lg' style={{ margin: 10 }} /><h4>+1 (647) 993-0908 </h4>
             </div>
           </div>
           <Footer />

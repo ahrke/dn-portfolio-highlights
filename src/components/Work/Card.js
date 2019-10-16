@@ -4,7 +4,7 @@ const Card = ({title, description, stack, imgFile, titleColor, link}) => {
   return (
     <a href={link}>
       <div style={{ color: '#3c4245', width: '100%', padding: 15, marginBottom: 25, borderRadius: 10, borderBottom: "3px solid rgb(212, 212, 212)" }}>
-        <h3 style={{ color: titleColor, padding: 5, borderColor: 'black', borderWidth: 20 }}>{title}</h3>
+        <h2 style={{ color: titleColor, padding: 5, borderColor: 'black', borderWidth: 20 }}>{title}</h2>
         <p>
           {description}
         </p>
