@@ -80,7 +80,7 @@ const IndexPage = () =>{
               </header>
               <img src={nain} style={{ width: '95%', margin: 10, borderRadius: 10 }} />
               <p>
-                I am a world-traveling, game playing, fiction reading, web app 
+                I am a world-traveling, game playing, book reading, web app 
                 developing, resistance training individual.
               </p>
               <ul className="icons-grid">
@@ -137,6 +137,9 @@ const IndexPage = () =>{
               <h2>Find me at</h2>
               
             </header>
+            <div>
+              
+            </div>
           </div>
           <Footer />
         </section>

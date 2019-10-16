@@ -4,6 +4,7 @@ import artsee from '../../assets/images/artseeSample.jpg';
 import tweeter from '../../assets/images/tweeterSample.jpg';
 import scheduler from '../../assets/images/schedulerSample.jpg';
 import portal from '../../assets/images/portalSampleLessonCreation.jpg';
+import concertmap from '../../assets/images/concertmapSample.jpg';
 
 const Work = () => {
   return (
@@ -23,7 +24,7 @@ const Work = () => {
           title="concertmap" 
           description="A Web Application helping users find local concerts, by exploring performing artists music playlist. Utilizes Songkick, and Spotify API"
           stack="JavaScript, jQuery, Bootstrap, HTML, CSS, PostgreSQL"
-          imgfile={artsee}
+          imgFile={concertmap}
           titleColor='#8105d8'
           link='https://github.com/ahrke/ConcertMap'
         />
